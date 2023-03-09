@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(../img/chili.JPG);
+}
+
+div#upBande{
+	height: 2vh;
+	background-size: 2vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#downBande{
+	height: 2vh;
+	background-size: 2vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#ConteinerBox{
+	width: 160vh;
+	height: 252vh;
+	display: block;
+	margin: auto;
+	background-color: indianred;
+}
+
+div#ConteinerBox{
+	width: 44vh;
+	height: 193vh;
+	display: block;
+	margin: auto;
+	background-color: indianred;
+}
+
+header{
+	/*min-width: 28vh;*/
+	/*max-width: 46vh;*/
+	height: 25vh;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	background: url("../img/croustillasTortillas.jpg") center;
+}
+
+a.buttonLogo{
+	width: 18vh;
+	height: 18vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+img.Logo{
+	width: 18vh;
+	height: 18vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+div#buttonBox{
+	width: 44vh;
+	height: 6vh;
+	display: flex;
+	justify-content: center;
+	background-color: darkblue;
+}
+
+a.buttona{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5vh;
+	font-weight: bold;
+	background-color: darkblue;
+	width: 15vh;
+	height: 6vh;
+}
+
+a.buttona:hover{
+	color: orange;
+	transition-duration: 0.6s;
+}
+
+img.Losange{
+	width: 1vh;
+	height: 1vh;
+}
+
+div#MainBox{
+	width: 44vh;
+	height: 140vh;
+	background-color: #FCCC00;
+	display: flex;
+	/*justify-content: center;
+	flex-direction: column;*/
+}
+
+div#startBox{
+	background-color: transparent;
+	width: 44vh;
+	height: 60vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+div#welcomeBox{
+	background-color: black;
+	border: 2px solid darkblue;
+	width: 38vh;
+	height: 50vh;
+	display: flex;
+	margin-top: 2vh;
+	margin: 3vh;
+}
+
+p.welcomeText{
+	color: #D9D6FF;
+	font-size: 3vh;
+	padding: 2vh;
+}
+
+p.signature{
+	color: orange;
+	font-size: 2.1vh;
+	display: flex;
+	justify-content: end;
+	padding-left: 2vh;
+	/*padding-right: ;*/
+}
+
+q.bigGui{
+	size: b5;
+}
+
+img.pimento{
+	width: 0vh;
+	height: 0vh;
+	display: none;
+	visibility: hidden ;
+	margin-top: 0vh;
+}
+
+div#midBox{
+	display: flex;
+	width: 44vh;
+	height: 36vh;
+	flex-direction: column;
+	justify-content: start;
+}
+
+div#caroussel{
+	display: flex;
+	align-self: center;
+}
+
+div#caroussel{
+	width: 200px;
+	height: 140px;
+	overflow: hidden;
+	border: 2px solid blue;
+}
+
+img.dimg{
+	width: 200px;
+	height: 140px;
+}
+
+div.img{
+	display: flex;
+	animation-duration: 25s;
+	animation-name: mesImages;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mesImages{
+	0%{
+		transform: translateX(0);
+	}
+	16.66%{
+		transform: translateX(-200px);
+	}
+	33.32%{
+		transform: translateX(-400px);
+	}
+	49.98%{
+		transform: translateX(-600px);
+	}
+	66.64%{
+		transform: translateX(-800px);
+	}
+	83.3%{
+		transform: translateX(-1000px);
+	}
+	99.96%{
+		transform: translateX(-1200px);
+	}
+	0%{
+		transform: translateX(0);
+	}
+
+
+}
+
+div#secondBox{
+	display: flex;
+	justify-content: center;
+	width: 44vh;
+	height: 34vh;
+	background-image: url(../img/greenBackground.jpg);
+}
+
+a.noirServ{
+	width: 36vh;
+	height: 26vh;
+	margin: auto;
+}
+
+img.negServ{
+	width: 36vh;
+	height: 26vh;
+	margin: auto;
+	border: solid blue 2px;
+}
+
+footer{
+	/*min-width: 28vh;*/
+	/*max-width: 46vh;*/
+	height: 18vh;
+	background-color: #FCCC00;
+	text-align: center;
+}
+
+div#copyright{
+	font-size: 1.6vh;
+	background-color: #FCCC00;
+	padding-bottom: 2vh;
+	text-align: center;
+	align-items: end;
+}
+
+div#resBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 3vh;
+}
+
+a.réseaux{
+	width: 5vh;
+	height: 5vh;
+}
+
+img.imgRés{
+	width: 5vh;
+	height: 5vh;
+}

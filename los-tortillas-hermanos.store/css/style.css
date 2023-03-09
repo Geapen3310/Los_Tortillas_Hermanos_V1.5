@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(../img/chili.JPG);
+}
+
+div#upBande{
+	height: 4vh;
+	background-size: 4vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#downBande{
+	height: 4vh;
+	background-size: 4vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#ConteinerBox{
+	width: 160vh;
+	height: 252vh;
+	display: block;
+	margin: auto;
+	background-color: indianred;
+}
+
+header{
+	/*min-width: 210vh;*/
+	/*max-width: 240vh;*/
+	height: 38vh;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	background: url("../img/croustillasTortillas.jpg") center;
+}
+
+a.buttonLogo{
+	width: 28vh;
+	height: 28vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+img.Logo{
+	width: 28vh;
+	height: 28vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+div#buttonBox{
+	width: 160vh;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: darkblue;
+}
+
+a.buttona{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 2.3vh;
+	font-weight: bold;
+	background-color: darkblue;
+}
+
+a.buttona:hover{
+	color: orange;
+	transition-duration: 0.6s;
+}
+
+img.Losange{
+	width: 3vh;
+	height: 3vh;
+}
+
+div#MainBox{
+	width: 160vh;
+	height: 170vh;
+	background-color: #FCCC00;
+	display: flex;
+	flex-direction: column;
+}
+
+div#startBox{
+	background-color: transparent;
+	width: 160vh;
+	height: 42vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+div#welcomeBox{
+	background-color: black;
+	border: 2px solid darkblue;
+	width: 65vh;
+	height: 18vh;
+	display: flex;
+	margin-top: 15vh;
+	display: flex;
+	flex-direction: column;
+}
+
+p.welcomeText{
+	color: #D9D6FF;
+	font-size: 2.2vh;
+	padding: 2vh;
+}
+
+p.signature{
+	color: orange;
+	font-size: 1.8vh;
+	display: flex;
+	justify-content: end;
+	padding-right: 2vh;
+}
+
+q.bigGui{
+	size: b5;
+}
+
+img.pimento{
+	width: 30vh;
+	height: 35vh;
+	display: flex;
+	margin-top: 7vh;
+}
+
+div#midBox{
+	display: flex;
+	width: 160vh;
+	height: 70vh;
+	flex-direction: column;
+	justify-content: start;
+}
+
+div#caroussel{
+	display: flex;
+	align-self: center;
+}
+
+div#caroussel{
+	width: 720px;
+	height: 420px;
+	overflow: hidden;
+	border: 2px solid blue;
+}
+
+img.dimg{
+	width: 720px;
+	height: 420px;
+}
+
+div.img{
+	display: flex;
+	animation-duration: 30s;
+	animation-name: mesImages;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mesImages{
+	0%{
+		transform: translateX(0);
+	}
+	16.66%{
+		transform: translateX(-720px);
+	}
+	33.32%{
+		transform: translateX(-1440px);
+	}
+	49.98%{
+		transform: translateX(-2160px);
+	}
+	66.64%{
+		transform: translateX(-2880px);
+	}
+	83.3%{
+		transform: translateX(-3600px);
+	}
+	99.96%{
+		transform: translateX(-4320px);
+	}
+	0%{
+		transform: translateX(0);
+	}
+
+
+}
+
+div#secondBox{
+	display: flex;
+	justify-content: center;
+	width: 160vh;
+	height: 60vh;
+	background-image: url(../img/greenBackground.jpg);
+}
+
+a.noirServ{
+	width: 60vh;
+	height: 40vh;
+	margin: auto;
+}
+
+img.negServ{
+	width: 60vh;
+	height: 40vh;
+	margin: auto;
+	border: solid blue 2px;
+}
+
+footer{
+	/*min-width: 210vh;*/
+	/*max-width: 240vh;*/
+	height: 28vh;
+	background-color: #FCCC00;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+div#copyright{
+	font-size: 2.2vh;
+	background-color: #FCCC00;
+	padding-bottom: 4vh;
+	text-align: center;
+	align-items: end;
+}
+
+div#resBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 6vh;
+}
+
+a.réseaux{
+	width: 5vh;
+	height: 5vh;
+}
+
+img.imgRés{
+	width: 5vh;
+	height: 5vh;
+}

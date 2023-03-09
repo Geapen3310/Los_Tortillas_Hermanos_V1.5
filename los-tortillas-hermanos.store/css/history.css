@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(../img/chili.JPG);
+}
+
+div#upBande{
+	height: 4vh;
+	background-size: 4vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#downBande{
+	height: 4vh;
+	background-size: 4vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#ConteinerBox{
+	width: 160vh;
+	height: 252vh;
+	display: block;
+	margin: auto;
+	background-color: indianred;
+}
+
+header{
+	/*min-width: 210vh;*/
+	/*max-width: 240vh;*/
+	height: 38vh;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	background: url("../img/croustillasTortillas.jpg") center;
+}
+
+a.buttonLogo{
+	width: 28vh;
+	height: 28vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+img.Logo{
+	width: 28vh;
+	height: 28vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+div#buttonBox{
+	width: 160vh;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: darkblue;
+}
+
+
+
+a.buttona{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 2.3vh;
+	font-weight: bold;
+	background-color: darkblue;
+}
+
+a.buttona:hover{
+	color: orange;
+	transition-duration: 0.6s;
+}
+
+img.Losange{
+	width: 3vh;
+	height: 3vh;
+}
+
+div#MainBox{
+	width: 160vh;
+	height: 170vh;
+	background-color: #FCCC00;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.loginEnterBox{
+	display: flex;
+	width: 20vh;
+	height: 10vh;
+	margin-top: 10vh;
+	border: solid blue 0.3vh;
+	justify-content: center;
+	align-items: center;
+	background-color: darkolivegreen;
+}
+
+a.loginButton{	
+	font-size: 3vh;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.loginButton:hover{
+	color: orange;
+	transition-duration: 0.6s;
+}
+
+/*div#mercyTextBox{
+	background-color: black;
+	width: 60vh;
+	height: 30vh;
+	align-self: center;
+	margin-top: 15vh;
+	text-align: center;
+}
+
+p.mercyText{
+	display: flex;
+	color: white;
+	margin: 4vh;
+	font-size: 3vh;
+}*/
+
+div#productBox{
+	display: flex;
+	background-color: hotpink;
+	border: 0.3vh solid blue;
+	margin-top: 15vh;
+	width: 80vh;
+	height: 60vh;
+}
+
+div.textProductBox{
+	display: flex;
+	flex-direction: column;
+	background-color: darkolivegreen;
+	width: 50%;
+	height: 100%;
+}
+
+div.imgProductBox{
+	display: flex;
+	background-color: green;
+	width: 50%;
+	height: 100%;
+}
+
+p.productTitle{
+	display: flex;
+	color: white;
+	font-size: 4vh;
+	align-self: center;
+	margin-top: 4vh;
+}
+
+p.productCollector{
+	display: flex;
+	color: white;
+	font-size: 2vh;
+	font-style: italic;
+	margin-top: 1vh;
+	margin-left: 24%;
+}
+
+p#productPrice{
+	display: flex;
+	color: white;
+	font-size: 5vh;
+	margin-top: 4vh;
+	margin-left: 24%;
+}
+
+p.typeAuto{
+	display: flex;
+	color: white;
+	font-size: 2vh;
+	margin-top: 4vh;
+	margin-left: 24%;
+}
+
+div.model{
+	display: flex;
+	flex-direction: row;
+	margin-top: 1vh;
+	margin-left: 24%;
+}
+
+a#auto1{
+	display: flex;
+	background-color: red;
+	width: 4vh;
+	height: 4vh;
+}
+
+a#auto2{
+	display: flex;
+	background-color: saddlebrown;
+	width: 4vh;
+	height: 4vh;
+	margin-left: 1vh;
+	margin-right: 1vh;
+}
+
+a#auto3{
+	display: flex;
+	background-color: blueviolet;
+	width: 4vh;
+	height: 4vh;
+}
+
+p.productTDescription{
+	display: flex;
+	color: white;
+	font-size: 3vh;
+	margin-top: 3vh;
+	margin-left: 16%;
+}
+
+p.productDescription{
+	display: flex;
+	color: white;
+	font-size: 1.8vh;
+	margin-top: 2vh;
+	margin-left: 20%;
+}
+
+img#lalito{
+	display: flex;
+	width: 100%;
+	height: 100%
+}
+
+footer{
+	/*min-width: 210vh;*/
+	/*max-width: 240vh;*/
+	height: 28vh;
+	background-color: #FCCC00;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+div#copyright{
+	font-size: 2.2vh;
+	background-color: #FCCC00;
+	padding-bottom: 4vh;
+	text-align: center;
+	align-items: end;
+}
+
+div#resBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 6vh;
+}
+
+a.réseaux{
+	width: 5vh;
+	height: 5vh;
+}
+
+img.imgRés{
+	width: 5vh;
+	height: 5vh;
+}

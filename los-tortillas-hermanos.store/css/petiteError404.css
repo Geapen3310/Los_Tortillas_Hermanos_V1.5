@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(../img/chili.JPG);
+}
+
+div#upBande{
+	height: 2vh;
+	background-size: 2vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#downBande{
+	height: 2vh;
+	background-size: 2vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#ConteinerBox{
+	width: 44vh;
+	height: 110vh;
+	display: block;
+	margin: auto;
+	background-color: indianred;
+}
+
+header{
+	/*min-width: 28vh;*/
+	/*max-width: 46vh;*/
+	height: 25vh;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	background: url("../img/croustillasTortillas.jpg") center;
+}
+
+a.buttonLogo{
+	width: 18vh;
+	height: 18vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+img.Logo{
+	width: 18vh;
+	height: 18vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+div#buttonBox{
+	width: 44vh;
+	height: 6vh;
+	display: flex;
+	justify-content: center;
+	background-color: darkblue;
+}
+
+a.buttona{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5vh;
+	font-weight: bold;
+	background-color: darkblue;
+	width: 15vh;
+	height: 6vh;
+}
+
+a.buttona:hover{
+	color: orange;
+	transition-duration: 0.6s;
+}
+
+img.Losange{
+	width: 1vh;
+	height: 1vh;
+}
+
+div#MainBox{
+	width: 44vh;
+	height: 57vh;
+	background-color: #FCCC00;
+	display: flex;
+	/*justify-content: center;
+	flex-direction: column;*/
+}
+
+
+h1.error404Text{
+	display: flex;
+	text-align: center;
+	align-self: center;
+	padding-top: 14vh;
+}
+
+div#errorTextBox{
+	display: flex;
+	align-self: center;
+	padding-top: 2vh;
+}
+
+p.errorText{
+	display: flex;
+	text-align: center;
+
+}
+
+a.muiSecreto{
+	text-decoration: none;
+	color: black;
+}
+
+
+footer{
+	/*min-width: 28vh;*/
+	/*max-width: 46vh;*/
+	height: 18vh;
+	background-color: #FCCC00;
+	text-align: center;
+}
+
+div#copyright{
+	font-size: 1.6vh;
+	background-color: #FCCC00;
+	padding-bottom: 2vh;
+	text-align: center;
+	align-items: end;
+}
+
+div#resBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 3vh;
+}
+
+a.réseaux{
+	width: 5vh;
+	height: 5vh;
+}
+
+img.imgRés{
+	width: 5vh;
+	height: 5vh;
+}

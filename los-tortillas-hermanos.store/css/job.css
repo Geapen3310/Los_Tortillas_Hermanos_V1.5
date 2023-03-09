@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(../img/chili.JPG);
+}
+
+div#upBande{
+	height: 4vh;
+	background-size: 4vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#downBande{
+	height: 4vh;
+	background-size: 4vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#ConteinerBox{
+	width: 160vh;
+	height: 212vh;
+	display: block;
+	margin: auto;
+	background-color: indianred;
+}
+
+header{
+	/*min-width: 210vh;*/
+	/*max-width: 240vh;*/
+	height: 38vh;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	background: url("../img/croustillasTortillas.jpg") center;
+}
+
+a.buttonLogo{
+	width: 28vh;
+	height: 28vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+img.Logo{
+	width: 28vh;
+	height: 28vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+div#buttonBox{
+	width: 160vh;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: darkblue;
+}
+
+
+
+a.buttona{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 2.3vh;
+	font-weight: bold;
+	background-color: darkblue;
+}
+
+a.buttona:hover{
+	color: orange;
+	transition-duration: 0.6s;
+}
+
+img.Losange{
+	width: 3vh;
+	height: 3vh;
+}
+
+div#MainBox{
+	width: 160vh;
+	height: 130vh;
+	background-color: #FCCC00;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+div#laCafJob{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	margin-top: 14vh;
+	width: 76vh;
+	height: 20vh;
+	background-color: #3E5D37;
+	color: white;
+}
+
+p.cafp{
+	display: flex;
+	margin-top: 6vh;
+	font-size: 4vh;
+	text-align: center;
+	align-self: center;
+}
+
+p.cafpR{
+	display: flex;
+	font-size: 1.3vh;
+	text-align: center;
+	align-self: center;
+}
+
+div#contactBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-self: center;
+	align-self: center;
+	font-size: 2.3vh;
+	width: 86vh;
+	height: 60vh;
+	margin-top: 16vh;
+	color: #FCCC00;
+	font-weight: bold;
+	background-color: darkblue;
+	/*border: solid 2px blue;*/
+	border-radius: 0vh;
+}
+
+p.contactPresText{
+	color: white;
+	text-align: center;
+	font-size: 3vh;
+	margin-bottom: 4vh;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 30vh;
+}
+
+textarea{
+	min-width: ;
+	min-height: ;
+	max-width: 30vh;
+	max-height: 16vh;
+}
+
+input.buttoni{
+	color: white;
+	font-weight: bold;
+	background-color: #A2001A;
+	margin-top: 1.8vh;
+	font-size: 2.5vh;
+	height: 5vh;
+	width: 30vh;
+	border: none;
+
+}
+
+input.buttoni:hover{
+	color: orange;
+	transition-duration: 0.8s;
+}
+
+footer{
+	/*min-width: 210vh;*/
+	/*max-width: 240vh;*/
+	height: 28vh;
+	background-color: #FCCC00;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+div#copyright{
+	font-size: 2.2vh;
+	background-color: #FCCC00;
+	padding-bottom: 4vh;
+	text-align: center;
+	align-items: end;
+}
+
+div#resBox{
+	background-color: #FCCC00;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 6vh;
+}
+
+a.réseaux{
+	width: 5vh;
+	height: 5vh;
+}
+
+img.imgRés{
+	width: 5vh;
+	height: 5vh;
+}

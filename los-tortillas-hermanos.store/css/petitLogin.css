@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(../img/chili.JPG);
+}
+
+div#upBande{
+	height: 2vh;
+	background-size: 2vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#downBande{
+	height: 2vh;
+	background-size: 2vh;
+	background-image: url(../img/losangeBande.png);
+}
+
+div#ConteinerBox{
+	width: 44vh;
+	height: 133vh;
+	display: block;
+	margin: auto;
+	background-color: indianred;
+}
+
+header{
+	/*min-width: 28vh;*/
+	/*max-width: 46vh;*/
+	height: 25vh;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	background: url("../img/croustillasTortillas.jpg") center;
+}
+
+a.buttonLogo{
+	width: 18vh;
+	height: 18vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+img.Logo{
+	width: 18vh;
+	height: 18vh;
+	display: block;
+	margin: auto;
+	padding-top: 0vh;
+}
+
+div#buttonBox{
+	width: 44vh;
+	height: 6vh;
+	display: flex;
+	justify-content: center;
+	background-color: darkblue;
+}
+
+a.buttona{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5vh;
+	font-weight: bold;
+	background-color: darkblue;
+	width: 15vh;
+	height: 6vh;
+}
+
+a.buttona:hover{
+	color: orange;
+	transition-duration: 0.6s;
+}
+
+img.Losange{
+	width: 1vh;
+	height: 1vh;
+}
+
+div#MainBox{
+	width: 44vh;
+	height: 80vh;
+	background-color: #FCCC00;
+	display: flex;
+	/*justify-content: center;
+	flex-direction: column;*/
+}
+
+
+form.loginBox{
+	display: flex;
+	width: 40vh;
+	height: 50vh;
+	margin-top: 8vh;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    border: solid 0.3vh blue;
+}
+
+input.emailLogin{
+	width: 26vh;
+	height: 3vh;
+	margin-top: 6vh;
+	color: orange;
+	/*border-color: green;
+	background-color: green;*/
+}
+
+input.passwordLogin{
+	width: 26vh;
+	height: 3vh;
+	margin-top: 0.5vh;
+	color: orange;
+}
+
+button.subLogButton{
+	margin-top: 3vh;
+	background-color: #A2001A;
+	border: solid 0vh #A2001A;
+	color: white;
+	font-weight: bold;
+	font-size: 2.4vh;
+	width: 24vh;
+	height: 6vh;
+}
+
+button.subLogButton:hover{
+	transition-duration: 0.6s;
+	color: orange;
+}
+
+a.registerButton{
+	display: flex;
+	color: orange;
+	font-size: 2.2vh;
+	margin-left: 66%;
+	margin-top: 15vh;
+}
+
+
+footer{
+	/*min-width: 28vh;*/
+	/*max-width: 46vh;*/
+	height: 18vh;
+	background-color: #FCCC00;
+	text-align: center;
+}
+
+div#copyright{
+	font-size: 1.6vh;
+	background-color: #FCCC00;
+	padding-bottom: 2vh;
+	text-align: center;
+	align-items: end;
+}
+
+div#resBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 3vh;
+}
+
+a.réseaux{
+	width: 5vh;
+	height: 5vh;
+}
+
+img.imgRés{
+	width: 5vh;
+	height: 5vh;
+}
